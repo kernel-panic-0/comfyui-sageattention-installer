@@ -1,5 +1,7 @@
 # ComfyUI SageAttention Installer
 
+![](assets/banner.png)
+
 An easy to use bash TUI script that installs [SageAttention](https://github.com/thu-ml/SageAttention) into an existing **ComfyUI** installation on **Ubuntu 24.04** (other distros may work but are untested).
 
 By default it installs **SageAttention 2**, compiled from source against your local CUDA toolkit. An interactive menu (or `--sa-version`) also offers **SageAttention 3** (FP4 kernels, Blackwell-only) and **SageAttention 1** from PyPI.
