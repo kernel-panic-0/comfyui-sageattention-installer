@@ -1,4 +1,4 @@
-# ComfyUI SageAttention Instataller
+# ComfyUI SageAttention Installer
 
 A bash script that installs [SageAttention](https://github.com/thu-ml/SageAttention) into an existing **ComfyUI** installation on **Ubuntu 24.04** (x86_64, NVIDIA GPU).
 
