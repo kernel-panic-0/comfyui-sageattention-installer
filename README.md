@@ -1,13 +1,10 @@
 # ComfyUI SageAttention Installer
 
-A bash script that installs [SageAttention](https://github.com/thu-ml/SageAttention) into an existing **ComfyUI** installation on **Ubuntu 24.04** (x86_64, NVIDIA GPU).
+An easy to use bash TUI script that installs [SageAttention](https://github.com/thu-ml/SageAttention) into an existing **ComfyUI** installation on **Ubuntu 24.04** (other distros may work but are untested).
 
 By default it installs **SageAttention 2**, compiled from source against your local CUDA toolkit. An interactive menu (or `--sa-version`) also offers **SageAttention 3** (FP4 kernels, Blackwell-only) and **SageAttention 1** from PyPI.
 
-> **Why source-only for v2/v3?** PyPI's `sageattention` package only ships
-> SageAttention **1.x** (latest 1.0.6). SageAttention 2 and 3 were never
-> published to PyPI — they must be built from the `thu-ml/SageAttention`
-> repository. The old "install the prebuilt wheel first" behaviour of this
+> **Why source-only for v2/v3?** PyPI's `sageattention` package only ships SageAttention **1.x** (latest 1.0.6). SageAttention 2 and 3 were never published to PyPI — they must be built from the `thu-ml/SageAttention` repository. The old "install the prebuilt wheel first" behaviour of this
 > script silently installed SageAttention **1**; that path has been removed.
 
 Both standard `pip`/`venv` setups and `uv`-managed ComfyUI installs are supported (auto-detected).
